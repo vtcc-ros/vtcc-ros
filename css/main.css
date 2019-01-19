@@ -97,6 +97,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   img {
+     max-width: 100%;
+     height: auto;
+   }
+
+   .opaque {
+     opacity: .6;
+     filter: alpha(opacity=60); /* For IE8 and earlier */
+   }
+
+   .centerImage {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
 
 
 
