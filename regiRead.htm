@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>VTCC Regimental Orders</title>
+  <title>Regimental Read</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -25,38 +25,22 @@
   gtag('config', 'UA-132849951-1');
 </script>
 
+<script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script>
+    $(function(){
+      $("#includedContent").load("https://vtcc-ros.github.io/READ-HTML.htm");
+    });
+    </script>
+
 </head>
 
-<body style="background-color:#2C313F;">
+<body style="background-color:#FFFFFF;">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div style="font-family:georgia;">
-  <p style="color:#AF1D1D;text-align:center;font-size:350%;" >
-    <strong>
-        VTCC Regimental Orders
-    </strong>
-  </p>
-  <p style="text-align:center;">
-  <a style="color:#AF1D1D;font-size:175%" href="https://goo.gl/forms/w0TwJWoIoa80CuzJ2">
-    <em>Request an Announcement in the RO's</em></a>
-  </p>
-</div>
-<div class="container center">
-  <img src="coverphoto.jpg" width="960" height="575" title="Sunrise on the VT"
-  alt="Sunrise on the VT. From the Commandant's facebook page." class="opaque imgScale">
-  <div class="imgTopLeft">
-  <a style="color:white;font-family:georgia;font-size:125%" href="dayPlan.htm"> Current Plan of the Day</a>
-    <br>
-    <br>
-    <a style="color:white;font-family:georgia;font-size:125%" href="regiRead.htm"> Current Regimental Read</a>
-    <br>
-    <br>
-    <a style="color:white;font-family:georgia;font-size:125%" href="dayPlan.htm"> Organization & Development Opportunities</a>
-</div>
-</div>
+  <div id="includedContent"></div>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
