@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
@@ -25,13 +25,6 @@
   gtag('config', 'UA-132849951-1');
 </script>
 
-<script src="js/vendor/jquery-3.3.1.min.js"></script>
-    <script>
-    $(function(){
-      $("#includedContent").load("POD-HTML.htm");
-    });
-    </script>
-
 </head>
 
 <body style="background-color:#FFFFFF;">
@@ -40,7 +33,24 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div> <iframe width="100%" height="842" src="POD-HTML.htm"></iframe></div>
+  <!-- Side navigation -->
+  <div class="sidenav" style="font-family:georgia;">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Page content -->
+<div>
+  <iframe
+  class="fullWidth"
+  src="POD-HTML.htm"
+  height="100%"
+  width="100%"
+  >
+  </iframe>
+</div>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
