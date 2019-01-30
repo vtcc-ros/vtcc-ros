@@ -121,7 +121,7 @@ textarea {
    .docHold {
      width: 100%;
      position: relative;
-     padding-top: 50px;
+     padding-top: 65px;
    }
 
    .docFrame {
@@ -137,17 +137,22 @@ textarea {
 
    .menuBar {
      position: fixed;
+     display: block;
      top: 0;
+     z-index: 1;
+     overflow: hidden;
      width: 100%;
      background-color: #2C313F;
    }
 
    .menuBar a {
-     float: left;
-     display: block;
+     display: inline-block;
      color: #8B1F41;
-     text-align: center;
-     padding: 14px 16px;
+     float: right;
+     font-size: 20px;
+     font-family: georgia;
+     padding: 15px;
+     text-decoration: none;
    }
 
    .menuBar a:hover {
