@@ -126,7 +126,7 @@ textarea {
      height: 0;
    }
 
-   .docHold iframe {
+   .docHold object {
      position: absolute;
      height: 100%;
      width: 100%;
