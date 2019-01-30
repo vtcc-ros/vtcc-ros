@@ -121,15 +121,16 @@ textarea {
    .docHold {
      width: 100%;
      position: relative;
-     padding-top: 65px;
-     padding-bottom: 100%;
      height: 0;
+     padding-top: 58px;
+     padding-bottom: calc(100vh - 58px);
    }
 
    .docHold iframe {
      position: absolute;
      height: 100%;
      width: 100%;
+     overflow-y: scroll;
    }
 
    .imgScale {
@@ -143,7 +144,7 @@ textarea {
      display: block;
      top: 0;
      z-index: 1;
-     overflow: hidden;
+     overflow-y: hidden;
      width: 100%;
      background-color: #2C313F;
    }
@@ -160,6 +161,10 @@ textarea {
 
    .menuBar a:hover {
      color: #E87722;
+   }
+
+   .hideScroll {
+     overflow-y: hidden;
    }
 
 iframe {
