@@ -127,6 +127,7 @@ textarea {
    .docFrame {
      display: block;
      position: fixed;
+     max-width: 100%
    }
 
    .imgScale {
